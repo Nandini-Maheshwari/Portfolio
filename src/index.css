@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Space Mono font to elements with class 'font-space-mono' */
+.font-space-mono {
+  font-family: 'Space Mono', monospace;
+}
