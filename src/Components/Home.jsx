@@ -14,6 +14,16 @@ const Home = () => {
             {/* <div className="third"><div className='w-full py-5'>AR VR</div></div> */}
           </section>
           <p className='py-6 text-2xl'>I'm a problem solver who happens to code.</p>
+
+          <div className='flex'>
+            <button className='rounded-3xl bg-neutral-700 hover:bg-neutral-500 py-1 px-4 mr-4'>
+              <a href="mailto:nandinim1204@gmail.com" className='flex'>Email Me</a>
+            </button>
+
+            <button className='rounded-3xl bg-neutral-700 hover:bg-neutral-500 py-1  px-4'>
+              <a href="#" className='flex'>Resume</a>
+            </button>
+          </div>
         </div>
 
         <div></div>

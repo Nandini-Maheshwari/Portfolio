@@ -23,7 +23,7 @@ const About = () => {
           <p className='text-justify'>
             I have a knack for competitive programming and am dedicatedly improving my skills in 
             Data Structures and Algorithms <code className='text-[#9796F0]'>(DSA) </code> to tackle complex problem-solving, leveraging the 
-            power and efficiency of C++ for implementation.
+            power and efficiency of <code className='text-[#9796F0]'>C++ </code>for implementation.
           </p>
           {/* Let's connect and explore the world of tech together! */}
           <div class="flex text-white pb-12 pt-8">
