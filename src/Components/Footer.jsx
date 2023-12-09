@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -25,13 +25,13 @@ const Footer = () => {
     <nav className="flex justify-center items-center">
       {/* <Link to='/'> */}
       <ul className="flex justify-between">
-        <a href="#" className='px-2'>
-          <FontAwesomeIcon icon={faDiscord} className='text-white text-[22px]' />
+        <a href="https://www.instagram.com/nandini_maheshwari_04/" className='px-2'>
+          <FontAwesomeIcon icon={faInstagram} className='text-white text-[22px]'/>
         </a>
-        <a href="#" className='px-2'>
+        <a href="https://twitter.com/Nandini_M04" className='px-2'>
           <FontAwesomeIcon icon={faTwitter}  className='text-white text-[22px]'/>
         </a>
-        <a href="#" className='px-2'>
+        <a href="https://www.linkedin.com/in/nandini-maheshwari-2a537b1b8/" className='px-2'>
           <FontAwesomeIcon icon={faLinkedin}  className='text-white text-[22px]'/>
         </a>
       </ul>

@@ -30,7 +30,7 @@ const About = () => {
 
             <a href="https://github.com/Nandini-Maheshwari">
               <div class="bg-neutral-800 mr-12 rounded-lg hover:bg-neutral-600">
-                <div class="p-4 flex justify-between">
+                <div class="px-4 py-2 flex justify-between">
                   <p class="text-lg font-bold text-[#9796F0] pr-12">GitHub</p>
                   <FaGithub className='text-2xl text-'/>
                 </div>
@@ -39,7 +39,7 @@ const About = () => {
             
             <a href="https://leetcode.com/Nandini-Maheshwari/" className='px-2'>
               <div class="bg-neutral-800 rounded-lg hover:bg-neutral-600">
-                <div class="p-4 flex justify-between">
+                <div class="px-4 py-2 flex justify-between">
                   <p class="text-lg font-bold text-[#9796F0] pr-9">Leetcode</p>
                   <SiLeetcode className='text-2xl'/>
                 </div>
