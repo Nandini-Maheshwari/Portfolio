@@ -1,5 +1,5 @@
 import React from 'react';
-import demo from '../Assets/useHub.png';
+import demo from '../assets/useHub.png';
 import { GoArrowRight } from "react-icons/go";
 
 function Projects() {
