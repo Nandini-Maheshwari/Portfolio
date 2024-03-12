@@ -5,6 +5,7 @@ import { FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa
 import { SiTailwindcss, SiMongodb, SiExpress, SiLeetcode } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaUnity } from "react-icons/fa6";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
             I'm  a Computer Science Engineering student at KIET Group Of Institutions, 
             Ghaziabad. I specialize in <code className='text-[#9796F0]'>MERN Stack </code> 
             development and find joy in crafting web applications using MongoDB, 
-            Express.js, React.js, and Node.js. Alongside, I indulge in <code className='text-[#9796F0]'>AR and VR </code> 
+            Express.js, React.js, <code className='text-[#9796F0]'>Next.js</code> and Node.js. Alongside, I indulge in <code className='text-[#9796F0]'>AR and VR </code> 
             development as a side interest, exploring the creative possibilities.
           </p>
           <p className='text-justify'>
@@ -98,6 +99,15 @@ const About = () => {
               <FaReact className="text-white text-3xl transition-colors duration-300 hover:text-[#9796F0]" />
               <div className="absolute z-10 top-full left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded-md whitespace-nowrap transition-opacity duration-300">
                 React.js
+              </div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="group py-1">
+              <TbBrandNextjs className="text-white text-3xl transition-colors duration-300 hover:text-[#9796F0]" />
+              <div className="absolute z-10 top-full left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded-md whitespace-nowrap transition-opacity duration-300">
+                Next.js
               </div>
             </div>
           </div>
