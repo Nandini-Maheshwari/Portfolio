@@ -1,29 +1,17 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import '../App.css';
 
 const Footer = () => {
   return (
     <div>
-    <div className="text-black font-bold text-4xl pb-10">
-      <span 
-        className="text-[#9796f0]"
-        style={{ 
-          fontSize: '0.5em', /* Increase font size */
-          lineHeight: '0.1', /* Adjust line height */
-          borderBottomWidth: '5px', /* Adjust border thickness */
-          borderBottomColor: '#9796f0', /* Adjust border color */
-          padding: '0 0.5rem', /* Add some padding */
-          borderBottom: '#9796f0'
-        }}
-      >
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////
-      </span>
-    
-    </div>
-    <nav className="flex justify-center items-center">
+      
+    <hr className="slash-1 my-20 w-full"/>
+
+    <nav className="flex justify-center">
       {/* <Link to='/'> */}
-      <ul className="flex justify-between">
+      <ul className="flex justify-center items-center">
         <a href="https://www.instagram.com/nandini_maheshwari_04/" className='px-2'>
           <FontAwesomeIcon icon={faInstagram} className='text-white text-[22px]'/>
         </a>
