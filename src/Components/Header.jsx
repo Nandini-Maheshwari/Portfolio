@@ -54,9 +54,9 @@ function Header() {
                 <code>&lt;Projects/&gt;</code>
               </NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink
-                to="/Contact"
+                to="/Experiences"
                 // className="hover:bg-neutral-700 transition ease-in duration-300 delay-100 rounded mx-1
                 //   px-3 py-1"
                 className={({ isActive }) =>
@@ -65,9 +65,9 @@ function Header() {
                   ${isActive ? "border-2 border-[#9796f0] rounded" : ""}`
                 }
               >
-                <code>&lt;Contact Me/&gt;</code>
+                <code>&lt;Experiences/&gt;</code>
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

@@ -56,7 +56,7 @@ const About = () => {
 
       <div className='mt-8 pb-4'>
         <p className='text-justify text-6xl text-white pb-8 '>My Skills</p>
-        <div className='flex justify-between pr-4 pb-12'>
+        <div className='flex justify-between pr-4 pb-4'>
 
           <div className="relative">
             <div className="group py-1">
