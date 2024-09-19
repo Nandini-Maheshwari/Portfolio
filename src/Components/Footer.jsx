@@ -15,13 +15,13 @@ const Footer = () => {
         {/* <a href="https://www.instagram.com/nandini_maheshwari_04/" className='px-2'>
           <FontAwesomeIcon icon={faInstagram} className='text-white text-[22px]'/>
         </a> */}
-        <a href="https://github.com/Nandini-Maheshwari" className='px-2'>
+        <a href="https://github.com/Nandini-Maheshwari" target="_blank" rel="noopener noreferrer" className='px-2'>
           <FontAwesomeIcon icon={faGithub} className='text-white text-[22px]'/>
         </a>
-        <a href="https://twitter.com/Nandini_M04" className='px-2'>
+        <a href="https://twitter.com/Nandini_M04" target="_blank" rel="noopener noreferrer" className='px-2'>
           <FontAwesomeIcon icon={faTwitter}  className='text-white text-[22px]'/>
         </a>
-        <a href="https://www.linkedin.com/in/nandini-maheshwari-2a537b1b8/" className='px-2'>
+        <a href="https://www.linkedin.com/in/nandini-maheshwari-2a537b1b8/" target="_blank" rel="noopener noreferrer" className='px-2'>
           <FontAwesomeIcon icon={faLinkedin}  className='text-white text-[22px]'/>
         </a>
       </ul>
