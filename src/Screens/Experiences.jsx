@@ -5,6 +5,12 @@ function Experiences() {
 
   const certificates = [
     {
+      title: 'CISCO Cybersecurity Essentials Certification',
+      issuedDate: "August'24",
+      link: 'https://reskilll.com/https://drive.google.com/drive/folders/1HlvGo4Basi8UowW8oH3iZt44b9i78GgE?usp=sharing/azure/cloudnativetour/e3cc6e82b8',
+      linkText: 'View Certificate'
+    },
+    {
       title: 'Azure DevDay Cloud Native Tour',
       issuedDate: "March'24",
       link: 'https://reskilll.com/certificate/azure/cloudnativetour/e3cc6e82b8',

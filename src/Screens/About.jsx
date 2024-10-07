@@ -2,7 +2,7 @@ import React from 'react';
 import IconWithTooltip from '../Components/IconWithToolTip.jsx';
 import NM from '../assets/NM.jpg';
 import { FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiExpress, SiLeetcode, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiExpress, SiLeetcode, SiTypescript, SiPostman } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaUnity } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -66,6 +66,7 @@ const About = () => {
           <IconWithTooltip IconComponent={FaNodeJs} tooltipText="Node.js" />
           <IconWithTooltip IconComponent={SiMongodb} tooltipText="MongoDB" />
           <IconWithTooltip IconComponent={SiExpress} tooltipText="Express.js" />
+          <IconWithTooltip IconComponent={SiPostman} tooltipText="Postman" />
           <IconWithTooltip IconComponent={FaUnity} tooltipText="Unity" />
           <IconWithTooltip IconComponent={FaGitAlt} tooltipText="Git" />
         </div>
