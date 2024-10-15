@@ -5,12 +5,6 @@ function Experiences() {
 
   const certificates = [
     {
-      title: 'CISCO Cybersecurity Essentials Certification',
-      issuedDate: "August'24",
-      link: 'https://reskilll.com/https://drive.google.com/drive/folders/1HlvGo4Basi8UowW8oH3iZt44b9i78GgE?usp=sharing/azure/cloudnativetour/e3cc6e82b8',
-      linkText: 'View Certificate'
-    },
-    {
       title: 'Azure DevDay Cloud Native Tour',
       issuedDate: "March'24",
       link: 'https://reskilll.com/certificate/azure/cloudnativetour/e3cc6e82b8',
@@ -36,18 +30,47 @@ function Experiences() {
     }
   ];
 
+  const internships = [
+    {
+      title: 'CISCO Virtual Internship Program In Cybersecurity',
+      issuedDate: "August'24",
+      link: 'https://drive.google.com/file/d/10hVyflk_nxxLNpHAbpEO1_nn0i7vWqrX/view?usp=sharing',
+      linkText: 'View Certificate'
+    },
+    {
+      title: 'Full Stack Developer Intern At Corazor Technology Pvt Ltd',
+      issuedDate: "July'24",
+      link: 'https://drive.google.com/file/d/1XCRfOBtPPFX7AXQVQ6ww6tVjYpyimbdv/view?usp=sharing',
+      linkText: 'View Certificate'
+    }
+  ];
+
   return (
     <div className='py-16'>
-      <p className='text-justify text-4xl text-white pb-6'>My Certificates & Badges</p>
-      {certificates.map((cert, index) => (
-        <CertificateCard 
-          key={index}
-          title={cert.title}
-          issuedDate={cert.issuedDate}
-          link={cert.link}
-          linkText={cert.linkText}
-        />
-      ))}
+      <div className='pb-16'>
+        <p className='text-justify text-4xl text-white pb-6'>Internships</p>
+        {internships.map((cert, index) => (
+          <CertificateCard 
+            key={index}
+            title={cert.title}
+            issuedDate={cert.issuedDate}
+            link={cert.link}
+            linkText={cert.linkText}
+          />
+        ))}
+      </div>
+      <div>
+        <p className='text-justify text-4xl text-white pb-6'>Certificates & Badges</p>
+        {certificates.map((cert, index) => (
+          <CertificateCard 
+            key={index}
+            title={cert.title}
+            issuedDate={cert.issuedDate}
+            link={cert.link}
+            linkText={cert.linkText}
+          />
+        ))}
+      </div>
     </div>
   );
 }
